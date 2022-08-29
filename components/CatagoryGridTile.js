@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
         shadowColor: "black",
         shadowOpacity: 0.25,
         shadowOffset: { width: 0, height: 2 },
-        borderRadius: 8,
+        borderRadius:999,
         overflow: Platform.OS === 'android' ? "hidden" : "visible"
 
     },
@@ -52,7 +52,8 @@ const styles = StyleSheet.create({
         alignItems: "center",
         padding: 20,
         justifyContent: "center",
-        borderRadius:8
+        borderRadius:999
+        
 
     },
     text: {
