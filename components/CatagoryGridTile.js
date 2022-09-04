@@ -1,10 +1,10 @@
 import React from 'react'
 import { Pressable, StyleSheet, Text, View, Platform } from 'react-native';
+import { useNavigation } from '@react-navigation/core';
 
 
 const CatagoryGridTile = ({ title, color ,onPress}) => {
-
-
+    
     return (
         <View style={[styles.grid , {backgroundColor:color}]}>
             <Pressable 
